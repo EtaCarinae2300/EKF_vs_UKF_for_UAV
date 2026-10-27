@@ -1,6 +1,6 @@
 # EKF vs. UKF for UAV State Estimation
 
-This repository contains our **ASEN 5128 Small UAS** project comparing the **Extended Kalman Filter (EKF)** and **Unscented Kalman Filter (UKF)** for nonlinear fixed-wing UAV state estimation in **GPS-denied environments**. The MATLAB simulation includes a 6-DoF aircraft model, autopilot, orbit/straight-line guidance, simulated inertial and non-GPS sensors, state-estimation algorithms, and flight visualization.
+This repository contains my **ASEN 5128 Small UAS** project comparing the **Extended Kalman Filter (EKF)** and **Unscented Kalman Filter (UKF)** for nonlinear fixed-wing UAV state estimation in **GPS-denied environments**. The MATLAB simulation includes a 6-DoF aircraft model, autopilot, orbit/straight-line guidance, simulated inertial and non-GPS sensors, state-estimation algorithms, and flight visualization.
 
 > **Current recommended configuration:** Use the **true aircraft state for guidance and control**. The estimated state is still under development and should **not** be used as autopilot feedback. Sensor-tuning changes below are recommendations for a cleaner simulation baseline; they are not automatically applied by this README.
 
